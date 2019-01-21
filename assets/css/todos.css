@@ -1,0 +1,69 @@
+#container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    margin: 100px auto;
+    background: #dddddd;
+}
+.completed{
+    color: red;
+    text-decoration: line-through;
+}
+.fa-check-circle{
+    float: right;
+}
+h1{
+    background: #2980b9;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal; 
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: roboto;
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color:#666;
+}
+li:nth-child(2n)
+{
+    background: #dddddd;
+}
+input{
+    width: 98%;
+    color: #2980b9;
+    padding: 10px 10px 10px 15px;
+    background-color: #dddddd;
+    border:3px solid rgba(0, 0, 0, 0.0);
+    box-sizing: border-box;
+    font-size: 15px;
+
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+
+span{
+    opacity: 0.0;
+    transition: 0.2s linear;
+    background: red;
+    color: white;
+    display: inline-block;
+    height: 40px;
+    margin-right: 10px; 
+    text-align: center;
+    width: 0;
+}
